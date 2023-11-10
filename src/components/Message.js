@@ -5,11 +5,7 @@ import {
 } from "./StyledMessage";
 
 export function Message(props) {
-  const onDoubleClick = () => {
-    if (window.confirm("Tem certeza que deseja deletar essa mensagem?")) {
-      props.deleteMessages(props.message);
-    }
-  };
+
 
   let position;
   let username;
